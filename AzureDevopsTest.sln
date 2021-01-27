@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsTest", "AzureDevopsTest\AzureDevopsTest.csproj", "{02C6EC8D-FC72-4602-B078-8FD0E038213D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevopsTest", "AzureDevopsTest\AzureDevopsTest.csproj", "{02C6EC8D-FC72-4602-B078-8FD0E038213D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

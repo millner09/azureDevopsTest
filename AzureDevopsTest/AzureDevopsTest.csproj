@@ -5,4 +5,9 @@
     <UserSecretsId>e074ecda-a7b6-463f-9689-0f708b6c4776</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="3.1.11" />
+  </ItemGroup>
+
 </Project>
