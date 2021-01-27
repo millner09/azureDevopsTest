@@ -37,7 +37,7 @@ steps:
     appSettings: |
       -super-secret-guid "$(super-secret-guid)"
       -Auth0:Domain "$(Auth0Domain)"
-      -Auth0:ClientID "$(Auth0ClientId)"
+      -Auth0:ClientID "$(Auth0CliendId)"
       -Auth0:ClientSecret "$(Auth0ClientSecret)"
     deploymentMethod: 'auto'
 
