@@ -34,11 +34,7 @@ steps:
     appType: 'webApp'
     appName: 'AMillnerAzureDevopsTest'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
-    appSettings: |
-      -super-secret-guid "$(super-secret-guid)"
-      -Auth0:Domain "$(Auth0Domain)"
-      -Auth0:ClientID "$(Auth0CliendId)"
-      -Auth0:ClientSecret "$(Auth0ClientSecret)"
+    appSettings: '-super-secret-guid "$(super-secret-guid)" -Auth0:Domain "$(Auth0Domain)"'
     deploymentMethod: 'auto'
 
 
