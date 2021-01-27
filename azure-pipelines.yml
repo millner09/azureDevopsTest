@@ -33,5 +33,5 @@ steps:
     azureSubscription: 'Adam Millner''s Service(12d00998-f3ea-400a-85c1-352ce7b1a7a8)'
     appType: 'webApp'
     appName: 'AMillnerAzureDevopsTest'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
     deploymentMethod: 'auto'
