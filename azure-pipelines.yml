@@ -34,4 +34,7 @@ steps:
     appType: 'webApp'
     appName: 'AMillnerAzureDevopsTest'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+    appSettings: '-super-secret-guid "$(super-secret-guid)"
     deploymentMethod: 'auto'
+
+
