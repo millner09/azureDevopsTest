@@ -2,9 +2,11 @@
 
 @using AzureDevopsTest.Data
 @inject WeatherForecastService ForecastService
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
 
 <h1>Weather forecast</h1>
-
+<h3>@Configuration["super-secret-guid"]</h3>
 <p>This component demonstrates fetching data from a service.</p>
 
 @if (forecasts == null)
